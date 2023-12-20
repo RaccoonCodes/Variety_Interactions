@@ -1,0 +1,53 @@
+﻿p{
+    color:snow;
+}
+
+.background {
+    background-color: black;
+}
+
+.text{
+    color:snow;
+    padding:2px;
+}
+
+.buttonStyle {
+    background-color: transparent;
+    color: snow;
+    border: none;
+    outline: none;
+   
+}
+.center{
+    text-align:center;
+}
+.pad {
+    padding: 70px;
+    font-family: 'Lucida Console';
+    font-size: 25px;
+}
+.radioSpace label{
+    margin-right:25px;
+    
+}
+.results.text {
+   font-size:50px;
+}
+
+.text_size{
+    font-size:20px;
+   
+}
+
+#InputCashID {
+    width: 200px;
+}
+
+#BtnEnterID {
+    height: 35px;
+    text-align: center;
+}
+
+#Mathwork{
+    font:bold;
+}

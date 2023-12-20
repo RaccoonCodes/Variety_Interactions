@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterSite.master.cs" Inherits="Variety_Interactions.Websites.MasterSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Style/StyleDesign.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-3.7.0.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body class="background">
+    <form id="form1" runat="server">
+        <div class="container p-5 border">
+            <nav class="nav navbar-expand-sm navbar-dark bg-dark">
+                <asp:Button ID="HomePage" runat="server" Text="Home" CssClass="buttonStyle" OnClick="HomePage_Click" />
+                <asp:Button ID="MoneyEx" runat="server" Text="Money Exchange" CssClass="buttonStyle" OnClick="MoneyEx_Click" />
+                <asp:Button ID="WorldTime" runat="server" Text="World Time" CssClass="buttonStyle" OnClick="WorldTime_Click" />
+                <asp:Button ID="BMI" runat="server" Text="BMI" CssClass="buttonStyle" OnClick="BMI_Click" />
+            </nav>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPages" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
